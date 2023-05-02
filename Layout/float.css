@@ -1,0 +1,80 @@
+
+.container {
+    clear: both;
+    width: 1500px;
+}
+
+.top-wrap {
+    width: 100%;
+    height: 150px;
+    color:white;
+}
+.header {
+    text-align: center;
+    background-color: black;
+    height: 50%;
+}
+.nav {
+    text-align: center;
+    background-color: forestgreen;
+    height: 50%;
+}
+
+.left-menu {
+    width: 20%;
+    height: 500px;
+    color:white;
+    float: left;    /* 요소를 붕 띄워서(공중에) 왼쪽으로 */
+}
+.right-menu {
+    width: 20%;
+    height: 500px;
+    color:white;
+    float: right;    /* 요소를 붕 띄워서(공중에) 왼쪽으로 */
+}
+.aside {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+#left {
+    background-color: crimson;
+}
+#right {
+    background-color:crimson;
+}
+.main-content {
+    width: 60%;
+    height: 500px;
+    float: left;
+    color: white;
+}
+.main {
+    background-color:darkmagenta;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+.section {
+    background-color: darkslategrey;
+    text-align: center;
+    margin: auto;
+    width: 400px;
+    height: 400px;
+}
+.article {
+    background-color: chocolate;
+    text-align: center;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+}
+
+.footer {
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    color:white;
+    background: #ba8b00;
+    clear: both;
+}
