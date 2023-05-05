@@ -1,23 +1,30 @@
-.nav-contents {
-    margin: auto;
+.nav-wrap {
     width: 1400px;
+    margin: auto;
+}
+.nav {
+    width: 100%;
+}
+.nav-contents {
+    -webkit-padding-start: 0px;
+    margin: auto;
     height: 54px;
     border: 1px black solid;
     border-radius: 3px;
     background-color: rgb(39, 156, 86);
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     
 }
 .nav-content {
     list-style: none;
-    margin-left: 100px;
+    text-align: center;
 }
 .nav-item {
     text-decoration: none;
     color: white;
-    padding: 5px;
-    background-color: rgba(45, 120, 25, 0.521);
+    background-color: rgba(40, 105, 23, 0.521);
     border-radius: 5px;
+    
 }
