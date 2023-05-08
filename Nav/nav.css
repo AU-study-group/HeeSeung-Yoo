@@ -1,21 +1,10 @@
-.nav-wrap {
-    width: 1400px;
-    margin: auto;
-}
-.nav {
-    width: 100%;
-}
 .nav-contents {
-    -webkit-padding-start: 0px;
-    margin: auto;
-    height: 54px;
+    display: flex;
+    background-color: rgb(39, 156, 86);
     border: 1px black solid;
     border-radius: 3px;
-    background-color: rgb(39, 156, 86);
-    display: flex;
     justify-content: space-evenly;
-    align-items: center;
-    
+    padding: 20px;
 }
 .nav-content {
     list-style: none;
@@ -26,5 +15,19 @@
     color: white;
     background-color: rgba(40, 105, 23, 0.521);
     border-radius: 5px;
-    
+}
+.burger {
+    display: none;
+    position: absolute;
+    right: 15px;
+    /* top: 25px; */
+    transform: translateY(-180px); 
+}
+@media screen and (max-width: 780px) {
+        .burger {
+            display: block;
+        }
+        .nav-contents {
+            flex-direction: column;
+        }
 }
