@@ -1,3 +1,5 @@
-import {함수임} from"./components/pages/Home.js";
+import { TIMELIMIT } from "./components/module/timeLimit.js";
 
-함수임();
+const WEB = document.querySelector('.web');
+
+WEB.insertAdjacentHTML('beforeend', TIMELIMIT);
