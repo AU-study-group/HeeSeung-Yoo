@@ -1,13 +1,13 @@
 let count = 6;
 const COUNTDOWN = document.querySelector('.count-down');
-const COUNTSIGN = document.querySelector('.count-sign')
+const COUNT_ELEMENT= document.querySelector('.count-element')
 
 let countdown = setInterval(() => {
     if(count > 0) {
         count--;
         COUNTDOWN.textContent = count;
     }else if(count == 0) {
-        COUNTSIGN.textContent= '';
+        COUNT_ELEMENT.textContent= '';
         alert("사은품 끝");
         clearInterval(countdown);
     }
