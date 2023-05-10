@@ -3,7 +3,7 @@ const TIMELIMIT = `<div>
 <button>Login</button>
 </div>
 <div>
-<span>5</span>초안에 구매하면 사은품 드림
+<span class="count-down">5</span>초안에 구매하면 사은품 드림
 </div>`;
 
 export { TIMELIMIT };
