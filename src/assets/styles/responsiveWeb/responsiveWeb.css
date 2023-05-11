@@ -1,0 +1,56 @@
+/* 네비게이션바 */
+.navbar {
+    position: fixed;
+    height: 100%;
+}
+.nav-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menu-item {
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.menu-item:hover {
+    background-color: #51515125;
+}
+.menu-item:active {
+    background-color: #51515160;
+}
+
+/* 구분선 */
+.division-line {
+    border: 1px solid #48484851;
+}
+/* bar 아이콘 */
+.fa-bars {
+    display: none;
+    cursor: pointer;
+    border-radius: 100px;
+    padding: 10px;
+}
+.fa-bars:hover {
+    background-color: #51515125;
+}
+.fa-bars:active {
+    background-color: #51515160;
+}
+
+@media (max-width:830px){
+    .nav-menu {
+        display: none;
+    }
+    .fa-bars {
+        display: block;
+    }
+    .division-line {
+        display: none;
+    }
+  }
+
+  /* 검색바 */
+  .searching-bar {
+    padding-left: 100px;
+  }
