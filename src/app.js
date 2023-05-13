@@ -1,5 +1,9 @@
-import { TIMELIMIT } from "./components/module/timeLimit.js";
-
 const WEB = document.querySelector('.web');
 
-WEB.insertAdjacentHTML('beforeend', TIMELIMIT);
+// import { TIMELIMIT } from "./components/module/timeLimit.js";
+
+// WEB.insertAdjacentHTML('beforeend', TIMELIMIT);
+
+import { RESPONSIVEWEB } from "./components/module/responsiveWeb.js"
+
+WEB.insertAdjacentHTML('beforeend', RESPONSIVEWEB);
