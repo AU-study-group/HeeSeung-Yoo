@@ -87,6 +87,9 @@
     .fa-bars {
         display: block;
     }
+    .division-line {
+        display: none;
+    }
     
     .video-section {
         grid-template-columns: repeat(2, 350px);
