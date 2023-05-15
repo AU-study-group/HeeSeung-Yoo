@@ -101,6 +101,17 @@
         display: flex;
     }
   }
+  @media (max-width:800px) {
+    .video-section {
+        grid-template-columns: repeat(2, 300px);
+    }
+    .image {
+        width: 300px;
+    }
+    .searching-box{
+        display: flex;
+    }
+  }
   @media (max-width:700px) {
     .video-section {
         grid-template-columns: repeat(1, 350px);
@@ -150,8 +161,7 @@
     border-radius: 100px;
 }
   .searching-txt {
-    align-items: center;
-    width: 200px;
+    width: 270px;
     border: none;
     outline: none;
   }

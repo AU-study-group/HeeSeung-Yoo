@@ -1,3 +1,5 @@
+const WEB = document.querySelector('.web');
+
 const RESPONSIVEWEB = `<nav class="navbar">
 <ul class="nav-menu">
     <li class="menu-item"><i class="fa-solid fa-house"></i>홈</li>
@@ -37,4 +39,4 @@ const RESPONSIVEWEB = `<nav class="navbar">
 </section>
 </div>`;
 
-export { RESPONSIVEWEB };
+WEB.insertAdjacentHTML('beforeend', RESPONSIVEWEB);
