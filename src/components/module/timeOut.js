@@ -7,7 +7,7 @@ let countdown = setInterval(() => {
         count--;
         COUNTDOWN.textContent = count;
     }else if(count == 0) {
-        COUNT_ELEMENT.textContent= '';
+        COUNT_ELEMENT.textContent = '';
         alert("사은품 끝");
         clearInterval(countdown);
     }
